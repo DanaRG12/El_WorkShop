@@ -22,15 +22,27 @@ body {
     table-layout: fixed;
     font-size: 40px;
 }
+.encabezado{
+    .img {
+        size-adjust: 60%;}
+    .header_nav_links{
+            display: flex;
+          justify-content: flex-end;
+          padding-bottom: 0.75rem;
+          padding-top: 0.75rem;
+          color: aliceblue;
+           } 
+}
+
 .encabezado, .pie{
     background-color: #FAD2F9;
 }
-.encabezado .img {
-size-adjust: 60%;
+
+
 }
 
 
-.catalogo_container, .card {
+.catalogo_container .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;

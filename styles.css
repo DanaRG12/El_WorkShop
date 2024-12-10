@@ -1,0 +1,26 @@
+
+body {
+    
+    font-family: "Montserrat", sans-serif;
+    /* background-image: url("imagenes/Background.jpg"); */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    background-color:rgb(240, 241, 241);
+    table-layout: fixed;
+    font-size: 40px;
+}
+.encabezado, .pie{
+    background-color: blueviolet;
+}
+.encabezado .img {
+size-adjust: 60%;
+}
+
+
+

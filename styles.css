@@ -8,38 +8,56 @@
 }
 
 body {
-    
     font-family: "Montserrat", sans-serif;
-    /* background-image: url("imagenes/Background.jpg"); */
     position: relative;
-    width: 100%;
+    /* width: 100%;
     height: 100vh;
-    overflow: auto;
+    overflow: auto; */
     color: rgb(0, 0, 0);
     box-sizing: border-box;
     text-align: center;
-    background-color:rgb(240, 241, 241);
+    background-color:rgb(253, 255, 255);
     table-layout: fixed;
-    font-size: 40px;
+    font-size: 15px;
 }
 .encabezado{
-    .img {
-        size-adjust: 60%;}
-    .header_nav_links{
-            display: flex;
-          justify-content: flex-end;
+    display: flex;
+    /* align-items: baseline; */
+    background-color: #FAD2F9;
+}
+   .encabezado .image {
+        max-width: 14%;
+        float: left;
+    }
+   .encabezado .header_nav_links{
+          display: flex;
+          justify-content: flex-start;
           padding-bottom: 0.75rem;
           padding-top: 0.75rem;
           color: aliceblue;
+          list-style: none;
            } 
-}
+           .header_nav_links a {
+            color: #000000;
+            font-weight: 80px;
+            padding: 0 0.25rem;
+          }
+          .header_nav_links a:not(:hover){
+            text-decoration: none;
+        }
+          .header_nav_links a + a {
+            margin-left: 1.25rem;
+          }
+             li {
+              display: inline;
+              padding: 20px;
+              float: right;
+                }
 
 .encabezado, .pie{
     background-color: #FAD2F9;
 }
 
-
-}
 
 
 .catalogo_container .card {
